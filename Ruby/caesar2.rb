@@ -35,4 +35,8 @@ def shifter (split_string, shift, output_array)
   puts output_array.join("")
 end
 
-string_splitter(str, shift, output_array)
+def run_cipher(str, shift, output_array)
+  string_splitter(str, shift, output_array)
+end
+
+run_cipher(str, shift, output_array)
